@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Slow Clock</title>
+    <title>Fast Clock</title>
     <style>
       body {
         background:black;
@@ -33,9 +33,9 @@
       var time = moment()
       $('#clock').text(time.format('HH:mm:ss'))
       setInterval(function(){
-        time.add(2, 's')
+        time.add(1, 's')
         $('#clock').text(time.format('HH:mm:ss'))
-      }, 1000)
+      }, 500)
     })
 
     </script>
