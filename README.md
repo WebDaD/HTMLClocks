@@ -9,6 +9,8 @@ It includes:
 * slow.html > Simple, slow running clock
 * fast.html > simple, fast running clock
 
+Demos: http://clock.webdad.eu
+
 ## Planned Clocks
 * fluid.html > Flowing backgrounds
 * many more...
